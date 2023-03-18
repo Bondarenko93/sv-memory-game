@@ -7,7 +7,7 @@ const server = Server({
     games: [MemoryGame],
     origins: ['*','playlearnspeak.com','https://playlearnspeak.com'],
     db: new FlatFile({
-        dir: '/home/qyklaeyc/server.playlearnspeak.com/storage',
+        dir: 'storage',
         logging: true,
     }),
 });
